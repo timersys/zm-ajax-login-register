@@ -184,7 +184,8 @@ jQuery( document ).ready(function( $ ){
     $( '#ajax-login-register-dialog, #ajax-login-register-login-dialog' ).dialog( "option", "position", {
         my: "center top",
         at: "center top+5%",
-        of: 'body'
+        of: 'body',
+        collision: 'none'
     });
 
     if ( _ajax_login_settings.pre_load_forms.length ){
